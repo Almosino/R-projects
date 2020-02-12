@@ -4,13 +4,6 @@
 
 # Title:    Programming with R group assignment 
 
-# Authors:  Anastasia Kefala: u-974020
-#           Efstathios Koronakis: u-533520
-#           Eleftherios Charalampopoulos: u-351158
-#           Malika Ibragimova: u-8701542
-#           Marilena Gkagkatsiou: u-355075
-
-
 ##load packages ----------------------------------------------------------------
 
 library("base")
@@ -148,7 +141,7 @@ absences_finalgrades
 mother_occupation <- ggplot(data = clean_data, 
                   mapping = aes(x = final_grade, fill = mother_job)) +
                   geom_bar()+
-  ggtitle('Students’ final grade and their mothers’ occupation')
+  ggtitle('Studentsâ€™ final grade and their mothersâ€™ occupation')
 
 mother_occupation
 
